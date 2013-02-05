@@ -35,7 +35,7 @@ function _start_service() {
    pushd $OPENSHIFT_REPO_DIR > /dev/null
    source "$pycart_dir/activate_virtenv"
 
-   nohup python app.py > "$pycart_dir/logs/appserver.log" 2>&1 &
+   nohup python -u app.py > "$pycart_dir/logs/appserver.log" 2>&1 &
    pid=$!
    echo "$pid" > "$pycart_dir/run/appserver.pid"
 
