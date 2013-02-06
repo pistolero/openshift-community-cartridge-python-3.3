@@ -9,6 +9,7 @@ setup(name='YourAppName', version='1.0',
       #  for the specific client drivers/modules your application needs.
       install_requires=['WebOb',
                         #  'mysql-connector-python',
+                        #  'pymongo',
                         #  'psycopg2',
       ],
      )
