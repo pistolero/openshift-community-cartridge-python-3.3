@@ -6,7 +6,7 @@ Description: "Community supported Python 3.3 cartridge. See the community site f
 Version: 1.0.0
 License: "ASL 2.0"
 License-Url: http://www.apache.org/licenses/LICENSE-2.0.txt
-Vendor:
+Vendor: Sergey Kirillov
 Categories:
   - service
   - python
