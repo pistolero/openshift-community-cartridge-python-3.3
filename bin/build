@@ -36,6 +36,8 @@ if [ -f "${OPENSHIFT_REPO_DIR}setup.py" ]; then
    popd > /dev/null
 fi
 
+echo " - installing uWSGI"
+pip install uwsgi==2.0
 
 #  Fix the scripts + .pth files in the virtual env - make it relocatable.
 make_virtualenv_relocatable
