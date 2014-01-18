@@ -1,6 +1,6 @@
-Name: python-3.3
+Name: python-3.3-uwsgi
 Namespace: PYTHON
-Display-Name: Python 3.3 Community Cartridge
+Display-Name: Python 3.3 Community Cartridge + uWSGI
 Description: "Community supported Python 3.3 cartridge. See the community site for examples of bringing your cartridge to OpenShift. Python is a general-purpose, high-level programming language whose design philosophy emphasizes code readability. Popular development frameworks include: Django, Bottle, Pylons, Zope and TurboGears."
 Version: 1.0.0
 License: "ASL 2.0"
@@ -100,3 +100,4 @@ Group-Overrides:
 Endpoints:
   - "IP:PORT(8080):PROXY_PORT"
 
+Source-Url: https://github.com/pistolero/openshift-community-cartridge-python-3.3/archive/master.zip
